@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cookie": {
+              "type": "string"
+            },
+            "id": {
+              "type": "string"
+            },
+            "prod_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "cookie",
+            "id",
+            "prod_id"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Items"
+  ]
+}
